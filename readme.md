@@ -1,8 +1,8 @@
 # 导出
-> redis-dump -u localhost:6379  > ./mooncake_redis_6379.json
+> redis-dump -u localhost:6379  > ./redis_6379.json
 
 # 导入
-> cat ./mooncake_redis_6379.json | redis-load -u localhost:6379
+> cat ./redis_6379.json | redis-load -u localhost:6379
 
 ```
 FROM redis
