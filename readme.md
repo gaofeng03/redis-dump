@@ -8,6 +8,7 @@
 FROM redis
 RUN apt-get update && apt-get install ruby-dev -y \
     && apt-get install make \
+    && apt-get install gcc \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
