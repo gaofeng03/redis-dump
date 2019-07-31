@@ -8,4 +8,4 @@ FROM redis
 
 RUN apt-get update && apt-get install ruby
 # RUN gem sources -a http://ruby.taobao.org/
-RUN gem install redis-dump -V
+RUN gem install redis-dump -V -y
